@@ -1,6 +1,9 @@
-﻿namespace ApartmentRental.Core.Entities;
+﻿using System.Collections;
 
-public class Image
+namespace ApartmentRental.Core.Entities;
+
+public class Image : BaseEntity
 {
-    public int ApartmentId { get; set; }
+public byte[] Data { get; set; }
+
 }
